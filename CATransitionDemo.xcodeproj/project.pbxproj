@@ -26,6 +26,7 @@
 		3CC760FE1CFFA817008D74A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CC761041CFFAB87008D74A0 /* imageA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageA.jpg; sourceTree = "<group>"; };
 		3CC761061CFFBA2D008D74A0 /* imageB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageB.jpg; sourceTree = "<group>"; };
+		E67DEB5C298C60BB00AB97F2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		3CC760E61CFFA817008D74A0 = {
 			isa = PBXGroup;
 			children = (
+				E67DEB5C298C60BB00AB97F2 /* README.md */,
 				3CC760F11CFFA817008D74A0 /* CATransitionDemo */,
 				3CC760F01CFFA817008D74A0 /* Products */,
 			);
@@ -110,6 +112,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,6 +266,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jakechasan.CATransitionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -274,6 +278,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jakechasan.CATransitionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
